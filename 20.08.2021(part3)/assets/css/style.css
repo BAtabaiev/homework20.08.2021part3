@@ -1,0 +1,81 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 2rem;
+}
+
+.homework {
+  width: 100%;
+  height: 100vh;
+  background: rgb(74, 117, 222);
+  background: linear-gradient(
+    0deg,
+    rgba(74, 117, 222, 1) 21%,
+    rgba(120, 228, 182, 0.773546918767507) 73%
+  );
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+}
+.level1 {
+  width: 50%;
+  height: 50%;
+}
+.level2 {
+  width: 50%;
+  height: 50%;
+}
+.level3 {
+  width: 100%;
+  height: 30%;
+}
+
+.levelcont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.levelcont2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.buttonstyle1 {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+  background: rgb(169, 170, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 170, 173, 1) 21%,
+    rgba(20, 20, 20, 0.773546918767507) 73%
+  );
+  color: white;
+}
+button:hover {
+  background: yellow;
+  color: blue;
+  font-weight: 700;
+}
+.buttonstyle2 {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+  background: rgb(169, 170, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(169, 170, 173, 1) 21%,
+    rgba(20, 20, 20, 0.773546918767507) 73%
+  );
+  color: white;
+}
